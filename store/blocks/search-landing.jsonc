@@ -1,0 +1,24 @@
+{
+  "store.custom#landing": {
+    "blocks": [
+      "image#landingbanner",
+      "search-result-layout.customQuery"
+    ]
+  },
+
+  "image#landingbanner": {
+    "props": {
+      "src": "https://th.bing.com/th/id/OIP.K36umV1EmFn75nyJxkTobwHaLH?pid=Api&rs=1",
+      "minWidth": "100%"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8
+      }
+    }
+  }
+}
