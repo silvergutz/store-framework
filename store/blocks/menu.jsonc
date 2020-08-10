@@ -10,11 +10,6 @@
     }
   },
 
-  "menu-item#major-appliances": {
-    "blocks": [
-      "vtex.menu@2.x:submenu#major"
-    ]
-  },
   "vtex.menu@2.x:submenu#major":{
     "children":[
       "vtex.menu@2.x:menu#major"
@@ -30,12 +25,7 @@
       "orientation": "vertical"
     }
   },
-
-  "menu-item#small-appliances": {
-    "blocks": [
-      "vtex.menu@2.x:submenu#small"
-    ]
-  },
+  
   "vtex.menu@2.x:submenu#small": {
     "children": [
       "vtex.menu@2.x:menu#small"
@@ -51,12 +41,7 @@
       "orientation": "vertical"
     }
   }, 
-
-  "menu-item#electronics": {
-    "blocks": [
-      "vtex.menu@2.x:submenu#electronics"
-    ]
-  },
+  
   "vtex.menu@2.x:submenu#electronics": {
     "children": [
       "vtex.menu@2.x:menu#electronics"
